@@ -1,0 +1,13 @@
+{
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/images/:path*",
+      "destination": "https://bidz-back.vercel.app/images/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
