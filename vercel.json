@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/images/:path*",
-      "destination": "https://bidz-back.vercel.app/images/:path*"
+      "destination": "https://bids-backend.vercel.app/images/:path*"
     },
     {
       "source": "/(.*)",
